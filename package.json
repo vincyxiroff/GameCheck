@@ -25,12 +25,10 @@
       "maintainer": "GameCheck Team <dev@gamecheck.app>"
     },
     "win": {
-      "target": ["nsis"],
-      "icon": "assets/icon.ico"
+      "target": ["nsis"]
     },
     "mac": {
-      "target": ["dmg"],
-      "icon": "assets/icon.icns"
+      "target": ["zip"]
     }
   },
   "scripts": {

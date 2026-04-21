@@ -1,29 +1,29 @@
 # GameCheck
 
-**GameCheck** è uno strumento di analisi delle performance di gioco per PC, progettato per fornire stime reali basate sull'architettura hardware, non solo su requisiti minimi teorici.
+**GameCheck** is a professional-grade PC gaming performance analyzer designed to provide realistic FPS estimations and hardware bottleneck identification, moving beyond theoretical requirements.
 
-## 🎯 Caratteristiche
-*   **Analisi Hardware Reale**: Rilevamento avanzato di CPU, RAM e GPU (inclusa la gestione intelligente di iGPU come le serie AMD Vega).
-*   **Performance Engine**: Calcolo degli FPS basato su tier hardware, larghezza di banda della memoria e ottimizzazione driver (supporto Vulkan/ACO).
-*   **Bottleneck Detection**: Identifica se il limite è la GPU, la RAM (banda/capacità) o la CPU.
-*   **Search Engine**: Cerca i giochi direttamente da Steam e ottieni requisiti e stime di performance in tempo reale.
-*   **Dashboard Moderna**: UI Gaming in dark mode, animazioni fluide e analisi visiva dei componenti.
+## 🎯 Key Features
+*   **Real-Hardware Profiling**: Advanced detection of CPU, RAM, and GPU (including specialized handling for integrated APUs like AMD Vega).
+*   **Performance Engine**: FPS estimation based on hardware tiering, memory bandwidth modeling, and driver-level optimizations (Mesa/Vulkan/ACO awareness).
+*   **Bottleneck Detection**: Pinpoints whether the system limit is GPU (bandwidth/VRAM), RAM (capacity/channel), or CPU (core count).
+*   **Steam Integration**: Real-time game search and metadata fetching via Steam Store API.
+*   **Pro-Level Dashboard**: Gaming-centric dark mode UI with fluid animations and visual hardware health metrics.
 
-## ⚙️ Requisiti di Sistema (Sviluppo)
+## ⚙️ Development Requirements
 *   Node.js (LTS)
 *   npm
 
-## 🚀 Installazione e Avvio
-1. Clona il repository.
-2. Installa le dipendenze: `npm install`
-3. Avvia in modalità sviluppo: `npm run dev`
-4. Build per produzione (Linux): `npm run build`
+## 🚀 Getting Started
+1. Clone the repository.
+2. Install dependencies: `npm install`
+3. Run in development mode: `npm run dev`
+4. Build for production: `npm run build`
 
-## 🛠️ Tecnologie
-*   **Electron**: Framework per app desktop.
-*   **React + TailwindCSS**: Interfaccia utente moderna.
-*   **Systeminformation**: Analisi hardware di basso livello.
-*   **Steam API**: Dati ufficiali dai server Steam.
+## 🛠️ Tech Stack
+*   **Electron**: Cross-platform desktop framework.
+*   **React + TailwindCSS**: Modern, responsive user interface.
+*   **Systeminformation**: Low-level hardware diagnostics.
+*   **Steam API**: Official game metadata and requirement retrieval.
 
 ---
-*Progettato per precisione tecnica e accuratezza nelle stime di gioco.*
+*Engineered for performance accuracy and technical reliability.*
